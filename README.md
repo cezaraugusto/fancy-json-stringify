@@ -7,9 +7,7 @@
 
 > A fancy way to convert a JavaScript value to JSON
 
-This module is a wrapper around [JSON.strigify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringifyv) with an EOL.
-
-Defaults to no replacer and white space identation of 2.
+This module is a wrapper around [JSON.strigify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringifyv) with an EOL. Defaults to no replacer and white space identation of 2.
 
 ## Installation
 
@@ -44,11 +42,11 @@ A JavaScript value to be converted.
 
 #### replacer
 
-A function that transforms the results.
+A function that transforms the results. Defaults to `null`.
 
 #### space
 
-Adds indentation, white space, and line breaks to the return-value JSON
+Adds indentation, white space, and line breaks to the return-value. Defaults to `2`.
 
 ## License
 
